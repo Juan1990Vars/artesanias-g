@@ -1,0 +1,24 @@
+.products {
+    display: flex;
+    margin-top: 5em;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    margin-bottom: 100px;
+}
+
+.products__title {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.products__img {
+    width: 200px;
+    filter: brightness(1.1); /*Con filter y mix quito el fondo blanco de la imagen*/
+    mix-blend-mode: multiply;
+}
+
+.products__p {
+    text-align: center;
+    padding: 2px;
+}

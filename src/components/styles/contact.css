@@ -1,0 +1,120 @@
+.div {
+    /* margin: auto; */
+    /* background-color: red; */
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    /* max-width: 100%; */
+    /* manipular el tamaño del formulario */
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding-top: 90px;
+}
+
+.div__2 {
+    align-content: center;
+    padding: auto;;
+    /* background-color: blue; */
+    /* width: 50%; */
+}
+
+.div__title {
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.div__form {
+    box-shadow: 0 0 600px #cfb53b;
+    background: linear-gradient(to bottom, #cfb53b, #35682d);
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form {
+    border-radius: 10px;
+    border: 1px solid #666;
+    padding: 8px 6px 20px;
+    margin: 20px;
+    color: #fff;
+}
+
+.form__title {
+    padding: 0 6px;color: #333;
+}
+
+.form__input {
+    padding: 10px 20px;
+}
+
+label {
+    font-size: 0.88em;
+    line-height: 2;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: 1px solid #222;
+    width: 100%;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+input::placeholder {
+    color: #333;
+    font-weight: 600;
+}
+
+.textarea::placeholder {
+    color: #333;
+    font-weight: 600;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.submit {
+    color: #fff;
+    padding: 10px 40px;
+    letter-spacing: 3px; /* espaciado entre letras */
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+.local__title {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+iframe {
+    margin-top: 5px;
+}
+
+/* responsive */
+@media screen and (max-width: 800px) {
+    .div {
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .div__1 {
+        width: 80%;
+        /* padding: 100px; */
+    }
+
+    .div__2 {
+        display: inline-block;
+        width: 100%;
+        padding-top: 50px;
+        margin: 0;
+    }
+}

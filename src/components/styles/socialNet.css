@@ -1,0 +1,49 @@
+footer {
+    width: 100%;
+    height: 215px;
+    background-color: #0006;
+    display: inline-block
+}
+
+.redes__title {
+    font-size: 1.5em;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #1114;
+
+}
+
+.redes__contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redes__text {
+    align-content: center;
+}
+
+.p1 {
+    font-weight: bold;
+}
+
+.p1, .p2 {
+    text-align: center;
+}
+
+.img__li {
+    /* background-color: blueviolet; */
+    height: 50px;
+    width: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .redes {
+        font-size: 12px;
+    }
+
+    .img__li {
+        width: 35px;
+
+    }
+}

@@ -1,0 +1,52 @@
+.jobs {
+  padding-top: 120px;
+}
+
+.jobs__title {
+  padding: 10px;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+.jobs__box {
+  /* background-color: red; */
+  display: flex;
+}
+
+.bx-chevron-left {
+  margin: auto;
+  font-size: 50px;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.bx-chevron-right {
+  margin: auto;
+  font-size: 50px;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.slider__box--carousel {
+    display: flex;
+    width: 250px;
+    margin: 1em;
+    gap: 1.5em;
+    white-space: nowrap;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    /* background-color: red; */
+  }
+
+/* Para que haga efecto el carrusel con esta acción ocultamos todas las imagenes */
+.hidden {
+    display: none;
+}
+
+.jobs__img {
+  border-radius: 90px 40px;
+  border: 1px solid #000;
+  box-shadow: 0 0 5px 5px #000;
+  filter: brightness(1.1);/*Con filter y mix quito el fondo blanco de la imagen*/
+  mix-blend-mode: multiply;
+  
+}

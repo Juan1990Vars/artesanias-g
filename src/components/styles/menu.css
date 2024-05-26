@@ -1,0 +1,103 @@
+/* APARTIR DE AQUI INICIA EL MENU */
+.dark {
+    background: radial-gradient(transparent, #0409);
+    /* color: #fff; */
+}
+.light {
+    background-color: white;
+    color: rgba(0, 0, 0, 1.5);
+}
+
+.nav {
+    /* background: linear-gradient(#39ff14, transparent, #39ff14); */
+    /* background: linear-gradient(to right, #2fad36, #5DC1B9); */
+    /* background: radial-gradient(#efb840, #f7ef60); */
+    background-color: rgba(207, 181, 59, .7);
+    backdrop-filter: blur(8px);
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(1.1);
+    height: 5em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav__container {
+    display: flex;
+    margin: 10px;
+    font-size: 1.8em;
+    /* background-color: red; */
+    gap: .8em;
+}
+
+.nav__ul {
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-weight: 600;
+}
+
+.bx-menu{
+    visibility: collapse;
+}
+.bxs-message-square-x{
+    visibility: collapse;
+}
+
+/* Responsive */
+@media screen and (max-width: 700px){
+    .bx-menu{
+        visibility: visible;
+        padding-right: 1em;
+        font-size: 2.5em;
+        cursor: pointer;
+    }
+    .bxs-message-square-x{
+        visibility: visible;
+        padding-right: 1em;
+        font-size: 2.5em;
+        cursor: pointer;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+
+    .nav__ul {
+        display: flex;
+        /* width: 100%; */
+        flex-direction: column;
+        background-color: #CFB53B;
+        opacity: .8;
+        width: 200px;
+        border: 1px solid grey;
+        border-radius: 0 0 1em 1em;
+        padding-bottom: 1em;
+        position: absolute;
+        bottom: 750px;
+        transition: bottom 500ms ease;
+        padding-left: 2em;
+        justify-content: left;
+        cursor: pointer;
+    }
+
+    .desplazar {
+        bottom: -139px;
+        transition: bottom 500ms ease;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
