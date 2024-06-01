@@ -17,6 +17,8 @@ footer {
 .redes__contact {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
 }
 
 .redes__text {

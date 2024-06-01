@@ -1,0 +1,24 @@
+.commons {
+    width: 100%;
+    background-color: #0005;
+    text-align: center;
+}
+
+.commons__p {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.commons__a {
+    align-items: center;
+}
+
+.commons__div {
+    display: flex;
+    padding: 10px;
+    width: 15em;
+    margin: auto;
+}
+

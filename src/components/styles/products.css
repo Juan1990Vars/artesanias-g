@@ -7,6 +7,10 @@
     margin-bottom: 100px;
 }
 
+.products__pro {
+    width: 320px;
+}
+
 .products__title {
     text-align: center;
     font-size: 1.2em;
@@ -16,6 +20,7 @@
     width: 200px;
     filter: brightness(1.1); /*Con filter y mix quito el fondo blanco de la imagen*/
     mix-blend-mode: multiply;
+    margin: auto;
 }
 
 .products__p {

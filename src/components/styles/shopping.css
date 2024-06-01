@@ -1,0 +1,13 @@
+.shop {
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.mercado {
+    width: 100px;
+    margin: auto;
+    filter: brightness(1.1);/*Con filter y mix quito el fondo blanco de la imagen*/
+  mix-blend-mode: multiply;
+}
