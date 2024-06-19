@@ -12,14 +12,7 @@
 }
 
 .caja2 {
-    /* background: radial-gradient(#efb840, #f7ef60); */
     background: radial-gradient( #2fad56, #009c8c);
-    /* background-image: url(https://cdn.img.latamnews.lat/img/07e5/0c/0a/1119212219_0:18:1057:613_1920x0_80_0_0_2281fb00c7b2c72a51289e70f2146411.jpg);
-    background-image: url(https://cdn.img.latamnews.lat/img/07e5/0c/0a/1119212219_0:18:1057:613_1920x0_80_0_0_2281fb00c7b2c72a51289e70f2146411.jpg);
-    background-size: contain;
-    background-position: right ;
-    background-repeat: no-repeat;
-    background-color: #009c8c; */
     width: 100%;
     display: flex;
     align-items: center;
